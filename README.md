@@ -56,3 +56,5 @@ Each script prints a summary table and writes its JSON result file.
 ## License
 
 MIT License.
+
+- week24_degree_coverage.py -> Supplementary Table S14 (Twitch coverage by node degree; reuses results/week19 records, reproduces week19 coverage exactly). Output: results/week24_degree_coverage.json
