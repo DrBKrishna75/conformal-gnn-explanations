@@ -1,0 +1,268 @@
+{
+  "dataset_stats": {
+    "DE": {
+      "nodes": 9498,
+      "undirected_edges": 153138,
+      "features": 3170,
+      "positive_rate": 0.6045,
+      "mean_degree": 32.25,
+      "median_degree": 15.0,
+      "max_degree": 4259
+    },
+    "EN": {
+      "nodes": 7126,
+      "undirected_edges": 35324,
+      "features": 3170,
+      "positive_rate": 0.5456,
+      "mean_degree": 9.91,
+      "median_degree": 5.0,
+      "max_degree": 720
+    },
+    "ES": {
+      "nodes": 4648,
+      "undirected_edges": 59382,
+      "features": 3170,
+      "positive_rate": 0.2926,
+      "mean_degree": 25.55,
+      "median_degree": 12.0,
+      "max_degree": 1022
+    },
+    "FR": {
+      "nodes": 6549,
+      "undirected_edges": 112666,
+      "features": 3170,
+      "positive_rate": 0.3686,
+      "mean_degree": 34.41,
+      "median_degree": 18.0,
+      "max_degree": 2040
+    },
+    "PT": {
+      "nodes": 1912,
+      "undirected_edges": 31299,
+      "features": 3170,
+      "positive_rate": 0.3457,
+      "mean_degree": 32.74,
+      "median_degree": 17.0,
+      "max_degree": 767
+    },
+    "RU": {
+      "nodes": 4385,
+      "undirected_edges": 37304,
+      "features": 3170,
+      "positive_rate": 0.2452,
+      "mean_degree": 17.01,
+      "median_degree": 8.0,
+      "max_degree": 1229
+    }
+  },
+  "model_results": {
+    "GCN": {
+      "best_val_acc": 0.7007,
+      "train_seconds": 145.2,
+      "DE_test": [
+        0.6959,
+        0.7403
+      ],
+      "EN": [
+        0.5797,
+        0.6311
+      ],
+      "ES": [
+        0.708,
+        0.6386
+      ],
+      "FR": [
+        0.5053,
+        0.661
+      ],
+      "PT": [
+        0.6606,
+        0.5856
+      ],
+      "RU": [
+        0.5941,
+        0.5803
+      ]
+    },
+    "GAT": {
+      "best_val_acc": 0.7028,
+      "train_seconds": 194.6,
+      "DE_test": [
+        0.6861,
+        0.7342
+      ],
+      "EN": [
+        0.5584,
+        0.6105
+      ],
+      "ES": [
+        0.7003,
+        0.6425
+      ],
+      "FR": [
+        0.4813,
+        0.6458
+      ],
+      "PT": [
+        0.6485,
+        0.6148
+      ],
+      "RU": [
+        0.6609,
+        0.5667
+      ]
+    },
+    "GIN": {
+      "best_val_acc": 0.6902,
+      "train_seconds": 744.3,
+      "DE_test": [
+        0.6769,
+        0.7237
+      ],
+      "EN": [
+        0.5564,
+        0.603
+      ],
+      "ES": [
+        0.7009,
+        0.5014
+      ],
+      "FR": [
+        0.3831,
+        0.5553
+      ],
+      "PT": [
+        0.647,
+        0.5018
+      ],
+      "RU": [
+        0.6775,
+        0.5659
+      ]
+    },
+    "GraphConv": {
+      "best_val_acc": 0.6312,
+      "train_seconds": 724.1,
+      "DE_test": [
+        0.6384,
+        0.5419
+      ],
+      "EN": [
+        0.5613,
+        0.5427
+      ],
+      "ES": [
+        0.3214,
+        0.5323
+      ],
+      "FR": [
+        0.3717,
+        0.506
+      ],
+      "PT": [
+        0.3645,
+        0.5335
+      ],
+      "RU": [
+        0.2723,
+        0.4978
+      ]
+    }
+  },
+  "subgraph_sizes": {
+    "DE": {
+      "median": 72457.5,
+      "p90": 123704.0,
+      "max": 145899,
+      "frac_le_400": 0.053,
+      "frac_le_1000": 0.08
+    },
+    "EN": {
+      "median": 837.5,
+      "p90": 5327.000000000005,
+      "max": 19659,
+      "frac_le_400": 0.39,
+      "frac_le_1000": 0.54
+    },
+    "ES": {
+      "median": 17483.0,
+      "p90": 37207.1,
+      "max": 52265,
+      "frac_le_400": 0.093,
+      "frac_le_1000": 0.137
+    },
+    "FR": {
+      "median": 52730.5,
+      "p90": 82589.7,
+      "max": 110754,
+      "frac_le_400": 0.04,
+      "frac_le_1000": 0.057
+    },
+    "PT": {
+      "median": 21535.5,
+      "p90": 28694.7,
+      "max": 31046,
+      "frac_le_400": 0.047,
+      "frac_le_1000": 0.057
+    },
+    "RU": {
+      "median": 9175.0,
+      "p90": 22614.9,
+      "max": 34227,
+      "frac_le_400": 0.14,
+      "frac_le_1000": 0.173
+    }
+  },
+  "occlusion_gcn": {
+    "DE": {
+      "nodes": 20,
+      "mean_edges": 360.1,
+      "mean_critical": 1.0,
+      "frac_with_critical": 0.75,
+      "sec_per_node": 0.239
+    },
+    "EN": {
+      "nodes": 20,
+      "mean_edges": 267.6,
+      "mean_critical": 1.45,
+      "frac_with_critical": 0.65,
+      "sec_per_node": 0.242
+    },
+    "ES": {
+      "nodes": 20,
+      "mean_edges": 289.4,
+      "mean_critical": 1.0,
+      "frac_with_critical": 0.6,
+      "sec_per_node": 0.124
+    },
+    "FR": {
+      "nodes": 17,
+      "mean_edges": 262.6,
+      "mean_critical": 0.82,
+      "frac_with_critical": 0.529,
+      "sec_per_node": 0.125
+    },
+    "PT": {
+      "nodes": 17,
+      "mean_edges": 221.9,
+      "mean_critical": 1.0,
+      "frac_with_critical": 0.529,
+      "sec_per_node": 0.1
+    },
+    "RU": {
+      "nodes": 20,
+      "mean_edges": 299.8,
+      "mean_critical": 1.2,
+      "frac_with_critical": 0.7,
+      "sec_per_node": 0.203
+    }
+  },
+  "settings": {
+    "seed": 0,
+    "epochs": 300,
+    "tau": 0.05,
+    "source": "DE",
+    "max_occ_edges": 1000
+  },
+  "total_seconds": 1839.5
+}

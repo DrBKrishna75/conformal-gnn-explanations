@@ -1,0 +1,50 @@
+{
+  "dataset": "BA-Shapes",
+  "explainer": "GNNExplainer",
+  "seed": 42,
+  "n_cal": 57,
+  "n_test": 65,
+  "alphas": {
+    "0.05": {
+      "target_coverage": 0.95,
+      "q_hat": 0.9213,
+      "coverage": 0.9538,
+      "gt_edge_recall": 0.9962,
+      "avg_set_size": 36.49,
+      "avg_frac_subgraph": 0.706,
+      "resplit_coverage_mean": 0.9655,
+      "resplit_coverage_std": 0.0324,
+      "resplit_set_size_mean": 37.8,
+      "n_resplits": 200
+    },
+    "0.1": {
+      "target_coverage": 0.9,
+      "q_hat": 0.921,
+      "coverage": 0.9231,
+      "gt_edge_recall": 0.9885,
+      "avg_set_size": 36.4,
+      "avg_frac_subgraph": 0.6994,
+      "resplit_coverage_mean": 0.9112,
+      "resplit_coverage_std": 0.0542,
+      "resplit_set_size_mean": 36.95,
+      "n_resplits": 200
+    },
+    "0.2": {
+      "target_coverage": 0.8,
+      "q_hat": 0.9209,
+      "coverage": 0.8923,
+      "gt_edge_recall": 0.9859,
+      "avg_set_size": 36.37,
+      "avg_frac_subgraph": 0.6972,
+      "resplit_coverage_mean": 0.8061,
+      "resplit_coverage_std": 0.0753,
+      "resplit_set_size_mean": 37.72,
+      "n_resplits": 200
+    }
+  },
+  "topk_baseline": {
+    "k": 12,
+    "coverage": 0.0769,
+    "avg_set_size": 12.0
+  }
+}

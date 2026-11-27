@@ -1,0 +1,147 @@
+{
+  "dataset": "BA-Shapes",
+  "seed": 42,
+  "score": "rankabs",
+  "explainers": {
+    "GNNExplainer": {
+      "test_auc": 0.7219,
+      "rows": [
+        {
+          "alpha": 0.05,
+          "target": 0.95,
+          "k_hat": 106,
+          "coverage": 1.0,
+          "avg_set_size": 37.72,
+          "resplit_coverage_mean": 0.9663,
+          "resplit_coverage_std": 0.0331,
+          "resplit_size_mean": 33.26
+        },
+        {
+          "alpha": 0.1,
+          "target": 0.9,
+          "k_hat": 54,
+          "coverage": 0.9846,
+          "avg_set_size": 28.77,
+          "resplit_coverage_mean": 0.9162,
+          "resplit_coverage_std": 0.0466,
+          "resplit_size_mean": 25.57
+        },
+        {
+          "alpha": 0.2,
+          "target": 0.8,
+          "k_hat": 21,
+          "coverage": 0.7846,
+          "avg_set_size": 18.2,
+          "resplit_coverage_mean": 0.8277,
+          "resplit_coverage_std": 0.0647,
+          "resplit_size_mean": 18.71
+        }
+      ]
+    },
+    "Saliency": {
+      "test_auc": 0.9025,
+      "rows": [
+        {
+          "alpha": 0.05,
+          "target": 0.95,
+          "k_hat": 26,
+          "coverage": 0.9692,
+          "avg_set_size": 21.08,
+          "resplit_coverage_mean": 0.9678,
+          "resplit_coverage_std": 0.031,
+          "resplit_size_mean": 22.68
+        },
+        {
+          "alpha": 0.1,
+          "target": 0.9,
+          "k_hat": 25,
+          "coverage": 0.9692,
+          "avg_set_size": 20.54,
+          "resplit_coverage_mean": 0.9258,
+          "resplit_coverage_std": 0.0454,
+          "resplit_size_mean": 19.83
+        },
+        {
+          "alpha": 0.2,
+          "target": 0.8,
+          "k_hat": 20,
+          "coverage": 0.8769,
+          "avg_set_size": 17.6,
+          "resplit_coverage_mean": 0.8295,
+          "resplit_coverage_std": 0.0625,
+          "resplit_size_mean": 17.53
+        }
+      ]
+    },
+    "IntegratedGrad": {
+      "test_auc": 0.8778,
+      "rows": [
+        {
+          "alpha": 0.05,
+          "target": 0.95,
+          "k_hat": 73,
+          "coverage": 1.0,
+          "avg_set_size": 32.26,
+          "resplit_coverage_mean": 0.9662,
+          "resplit_coverage_std": 0.0304,
+          "resplit_size_mean": 31.19
+        },
+        {
+          "alpha": 0.1,
+          "target": 0.9,
+          "k_hat": 52,
+          "coverage": 0.9846,
+          "avg_set_size": 28.34,
+          "resplit_coverage_mean": 0.9236,
+          "resplit_coverage_std": 0.0466,
+          "resplit_size_mean": 24.31
+        },
+        {
+          "alpha": 0.2,
+          "target": 0.8,
+          "k_hat": 19,
+          "coverage": 0.8615,
+          "avg_set_size": 17.0,
+          "resplit_coverage_mean": 0.8302,
+          "resplit_coverage_std": 0.0687,
+          "resplit_size_mean": 17.13
+        }
+      ]
+    },
+    "Random": {
+      "test_auc": 0.4559,
+      "rows": [
+        {
+          "alpha": 0.05,
+          "target": 0.95,
+          "k_hat": 861,
+          "coverage": 0.9692,
+          "avg_set_size": 95.97,
+          "resplit_coverage_mean": 0.9646,
+          "resplit_coverage_std": 0.0332,
+          "resplit_size_mean": 105.59
+        },
+        {
+          "alpha": 0.1,
+          "target": 0.9,
+          "k_hat": 551,
+          "coverage": 0.9538,
+          "avg_set_size": 83.95,
+          "resplit_coverage_mean": 0.9237,
+          "resplit_coverage_std": 0.048,
+          "resplit_size_mean": 83.21
+        },
+        {
+          "alpha": 0.2,
+          "target": 0.8,
+          "k_hat": 133,
+          "coverage": 0.8615,
+          "avg_set_size": 41.46,
+          "resplit_coverage_mean": 0.8083,
+          "resplit_coverage_std": 0.0656,
+          "resplit_size_mean": 37.42
+        }
+      ]
+    }
+  }
+}

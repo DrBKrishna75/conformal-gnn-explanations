@@ -1,0 +1,8 @@
+{
+  "dataset": "BA-Shapes",
+  "seed": 42,
+  "device": "cuda",
+  "train_acc": 0.9762,
+  "val_acc": 0.9857,
+  "test_acc": 1.0
+}

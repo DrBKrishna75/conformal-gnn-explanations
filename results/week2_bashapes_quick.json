@@ -1,0 +1,109 @@
+{
+  "summary": {
+    "dataset": "BA-Shapes",
+    "seed": 42,
+    "device": "cuda",
+    "explainer": "GNNExplainer",
+    "epochs": 200,
+    "quick": true,
+    "n_explained": 10,
+    "reloaded_test_acc": 1.0,
+    "mean_auc_cal_motif_nodes": 0.8081,
+    "n_cal_motif_nodes": 2,
+    "mean_auc_test_motif_nodes": 0.4791,
+    "n_test_motif_nodes": 2,
+    "seconds": 24.5
+  },
+  "records": [
+    {
+      "node": 79,
+      "split": "cal",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9992,
+      "n_sub_edges": 2908,
+      "auc": null
+    },
+    {
+      "node": 528,
+      "split": "cal",
+      "label": 2,
+      "pred": 3,
+      "pred_prob": 0.6384,
+      "n_sub_edges": 1064,
+      "auc": 0.9995
+    },
+    {
+      "node": 566,
+      "split": "cal",
+      "label": 1,
+      "pred": 1,
+      "pred_prob": 0.9451,
+      "n_sub_edges": 32,
+      "auc": 0.6167
+    },
+    {
+      "node": 108,
+      "split": "cal",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9987,
+      "n_sub_edges": 2872,
+      "auc": null
+    },
+    {
+      "node": 156,
+      "split": "cal",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9996,
+      "n_sub_edges": 2764,
+      "auc": null
+    },
+    {
+      "node": 98,
+      "split": "test",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9994,
+      "n_sub_edges": 2924,
+      "auc": null
+    },
+    {
+      "node": 233,
+      "split": "test",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9968,
+      "n_sub_edges": 2838,
+      "auc": null
+    },
+    {
+      "node": 536,
+      "split": "test",
+      "label": 1,
+      "pred": 1,
+      "pred_prob": 0.8866,
+      "n_sub_edges": 30,
+      "auc": 0.4583
+    },
+    {
+      "node": 199,
+      "split": "test",
+      "label": 0,
+      "pred": 0,
+      "pred_prob": 0.9917,
+      "n_sub_edges": 2894,
+      "auc": null
+    },
+    {
+      "node": 501,
+      "split": "test",
+      "label": 1,
+      "pred": 1,
+      "pred_prob": 0.9837,
+      "n_sub_edges": 14,
+      "auc": 0.5
+    }
+  ]
+}

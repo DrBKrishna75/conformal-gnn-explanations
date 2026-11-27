@@ -1,0 +1,480 @@
+{
+  "dataset": "BA-Shapes",
+  "explainer": "Saliency",
+  "seed": 42,
+  "beta": 0.14,
+  "n_train_fit": 239,
+  "n_cal": 57,
+  "in_distribution": [
+    {
+      "score": "rankabs",
+      "alpha": 0.05,
+      "coverage": 0.9678,
+      "coverage_std": 0.031,
+      "avg_set_size": 22.68
+    },
+    {
+      "score": "rankabs",
+      "alpha": 0.1,
+      "coverage": 0.9258,
+      "coverage_std": 0.0454,
+      "avg_set_size": 19.83
+    },
+    {
+      "score": "rankabs",
+      "alpha": 0.2,
+      "coverage": 0.8295,
+      "coverage_std": 0.0625,
+      "avg_set_size": 17.53
+    },
+    {
+      "score": "rankfrac",
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "coverage_std": 0.0,
+      "avg_set_size": 119.82
+    },
+    {
+      "score": "rankfrac",
+      "alpha": 0.1,
+      "coverage": 0.9915,
+      "coverage_std": 0.0394,
+      "avg_set_size": 115.66
+    },
+    {
+      "score": "rankfrac",
+      "alpha": 0.2,
+      "coverage": 0.8721,
+      "coverage_std": 0.0517,
+      "avg_set_size": 112.48
+    },
+    {
+      "score": "minmax",
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "coverage_std": 0.0,
+      "avg_set_size": 119.82
+    },
+    {
+      "score": "minmax",
+      "alpha": 0.1,
+      "coverage": 0.9905,
+      "coverage_std": 0.0447,
+      "avg_set_size": 111.68
+    },
+    {
+      "score": "minmax",
+      "alpha": 0.2,
+      "coverage": 0.8148,
+      "coverage_std": 0.0827,
+      "avg_set_size": 30.36
+    },
+    {
+      "score": "normrank",
+      "alpha": 0.05,
+      "coverage": 0.9658,
+      "coverage_std": 0.0329,
+      "avg_set_size": 21.92
+    },
+    {
+      "score": "normrank",
+      "alpha": 0.1,
+      "coverage": 0.9215,
+      "coverage_std": 0.0438,
+      "avg_set_size": 19.49
+    },
+    {
+      "score": "normrank",
+      "alpha": 0.2,
+      "coverage": 0.8117,
+      "coverage_std": 0.0723,
+      "avg_set_size": 18.39
+    }
+  ],
+  "shift": [
+    {
+      "score": "rankabs",
+      "noise": 0.0,
+      "alpha": 0.05,
+      "coverage": 0.8875,
+      "avg_set_size": 23.2,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.0,
+      "alpha": 0.1,
+      "coverage": 0.8875,
+      "avg_set_size": 22.54,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.0,
+      "alpha": 0.2,
+      "coverage": 0.7625,
+      "avg_set_size": 18.73,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.0,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 289.07,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.0,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 289.07,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.0,
+      "alpha": 0.2,
+      "coverage": 0.95,
+      "avg_set_size": 268.09,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "minmax",
+      "noise": 0.0,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 289.07,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "minmax",
+      "noise": 0.0,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 289.07,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "minmax",
+      "noise": 0.0,
+      "alpha": 0.2,
+      "coverage": 0.85,
+      "avg_set_size": 25.29,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "normrank",
+      "noise": 0.0,
+      "alpha": 0.05,
+      "coverage": 0.925,
+      "avg_set_size": 24.5,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "normrank",
+      "noise": 0.0,
+      "alpha": 0.1,
+      "coverage": 0.9,
+      "avg_set_size": 23.43,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "normrank",
+      "noise": 0.0,
+      "alpha": 0.2,
+      "coverage": 0.8375,
+      "avg_set_size": 21.36,
+      "avg_subgraph_edges": 289.07
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.1,
+      "alpha": 0.05,
+      "coverage": 0.1875,
+      "avg_set_size": 25.57,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.1,
+      "alpha": 0.1,
+      "coverage": 0.15,
+      "avg_set_size": 24.61,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.1,
+      "alpha": 0.2,
+      "coverage": 0.1375,
+      "avg_set_size": 19.8,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.1,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 573.77,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.1,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 573.77,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.1,
+      "alpha": 0.2,
+      "coverage": 0.9125,
+      "avg_set_size": 532.4,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "minmax",
+      "noise": 0.1,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 573.77,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "minmax",
+      "noise": 0.1,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 573.77,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "minmax",
+      "noise": 0.1,
+      "alpha": 0.2,
+      "coverage": 0.45,
+      "avg_set_size": 61.54,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "normrank",
+      "noise": 0.1,
+      "alpha": 0.05,
+      "coverage": 0.2125,
+      "avg_set_size": 30.24,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "normrank",
+      "noise": 0.1,
+      "alpha": 0.1,
+      "coverage": 0.2125,
+      "avg_set_size": 28.79,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "normrank",
+      "noise": 0.1,
+      "alpha": 0.2,
+      "coverage": 0.1875,
+      "avg_set_size": 25.95,
+      "avg_subgraph_edges": 573.77
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.2,
+      "alpha": 0.05,
+      "coverage": 0.05,
+      "avg_set_size": 26.0,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.2,
+      "alpha": 0.1,
+      "coverage": 0.05,
+      "avg_set_size": 25.0,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.2,
+      "alpha": 0.2,
+      "coverage": 0.025,
+      "avg_set_size": 20.0,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.2,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 761.52,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.2,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 761.52,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.2,
+      "alpha": 0.2,
+      "coverage": 0.9625,
+      "avg_set_size": 706.67,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "minmax",
+      "noise": 0.2,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 761.52,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "minmax",
+      "noise": 0.2,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 761.52,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "minmax",
+      "noise": 0.2,
+      "alpha": 0.2,
+      "coverage": 0.35,
+      "avg_set_size": 125.21,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "normrank",
+      "noise": 0.2,
+      "alpha": 0.05,
+      "coverage": 0.0625,
+      "avg_set_size": 32.79,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "normrank",
+      "noise": 0.2,
+      "alpha": 0.1,
+      "coverage": 0.0625,
+      "avg_set_size": 31.23,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "normrank",
+      "noise": 0.2,
+      "alpha": 0.2,
+      "coverage": 0.0625,
+      "avg_set_size": 28.05,
+      "avg_subgraph_edges": 761.52
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.4,
+      "alpha": 0.05,
+      "coverage": 0.0125,
+      "avg_set_size": 26.0,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.4,
+      "alpha": 0.1,
+      "coverage": 0.0125,
+      "avg_set_size": 25.0,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "rankabs",
+      "noise": 0.4,
+      "alpha": 0.2,
+      "coverage": 0.0,
+      "avg_set_size": 20.0,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.4,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 1424.38,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.4,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 1424.38,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "rankfrac",
+      "noise": 0.4,
+      "alpha": 0.2,
+      "coverage": 0.95,
+      "avg_set_size": 1322.15,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "minmax",
+      "noise": 0.4,
+      "alpha": 0.05,
+      "coverage": 1.0,
+      "avg_set_size": 1424.38,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "minmax",
+      "noise": 0.4,
+      "alpha": 0.1,
+      "coverage": 1.0,
+      "avg_set_size": 1424.38,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "minmax",
+      "noise": 0.4,
+      "alpha": 0.2,
+      "coverage": 0.05,
+      "avg_set_size": 212.0,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "normrank",
+      "noise": 0.4,
+      "alpha": 0.05,
+      "coverage": 0.0,
+      "avg_set_size": 37.05,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "normrank",
+      "noise": 0.4,
+      "alpha": 0.1,
+      "coverage": 0.0,
+      "avg_set_size": 35.25,
+      "avg_subgraph_edges": 1424.38
+    },
+    {
+      "score": "normrank",
+      "noise": 0.4,
+      "alpha": 0.2,
+      "coverage": 0.0,
+      "avg_set_size": 31.64,
+      "avg_subgraph_edges": 1424.38
+    }
+  ]
+}

@@ -1,0 +1,1327 @@
+{
+  "dataset": "BA-Shapes",
+  "explainer": "Saliency",
+  "score": "rankabs",
+  "seed": 42,
+  "cal_levels": [
+    0.0,
+    0.025,
+    0.05,
+    0.1
+  ],
+  "cal_edges_per_node": {
+    "0.0": 5.654285714285714,
+    "0.025": 5.7942857142857145,
+    "0.05": 5.934285714285714,
+    "0.1": 6.217142857142857
+  },
+  "n_graphs": 5,
+  "n_test_per_graph": 100,
+  "settings": [
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.924,
+      "coverage_std": 0.0233,
+      "coverage_correct_only_mean": 0.9221,
+      "avg_set_size_mean": 21.87,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0,
+      "coverage_correct_only_mean": 1.0,
+      "avg_set_size_mean": 55.87,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.924,
+      "coverage_std": 0.0233,
+      "coverage_correct_only_mean": 0.9221,
+      "avg_set_size_mean": 21.87,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.908,
+      "coverage_std": 0.0248,
+      "coverage_correct_only_mean": 0.9057,
+      "avg_set_size_mean": 21.26,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.994,
+      "coverage_std": 0.008,
+      "coverage_correct_only_mean": 0.9939,
+      "avg_set_size_mean": 41.77,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.908,
+      "coverage_std": 0.0248,
+      "coverage_correct_only_mean": 0.9057,
+      "avg_set_size_mean": 21.26,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.786,
+      "coverage_std": 0.0287,
+      "coverage_correct_only_mean": 0.7808,
+      "avg_set_size_mean": 18.0,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.986,
+      "coverage_std": 0.0102,
+      "coverage_correct_only_mean": 0.9858,
+      "avg_set_size_mean": 31.74,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.786,
+      "coverage_std": 0.0287,
+      "coverage_correct_only_mean": 0.7808,
+      "avg_set_size_mean": 18.0,
+      "avg_subgraph_edges": 183.05,
+      "edges_per_node": 5.635,
+      "model_acc": 0.976,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.708,
+      "coverage_std": 0.0172,
+      "coverage_correct_only_mean": 0.7231,
+      "avg_set_size_mean": 23.55,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.982,
+      "coverage_std": 0.0075,
+      "coverage_correct_only_mean": 0.9902,
+      "avg_set_size_mean": 71.43,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.958,
+      "coverage_std": 0.0133,
+      "coverage_correct_only_mean": 0.964,
+      "avg_set_size_mean": 57.13,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.686,
+      "coverage_std": 0.0206,
+      "coverage_correct_only_mean": 0.6993,
+      "avg_set_size_mean": 22.81,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.95,
+      "coverage_std": 0.0179,
+      "coverage_correct_only_mean": 0.957,
+      "avg_set_size_mean": 52.42,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.878,
+      "coverage_std": 0.0194,
+      "coverage_correct_only_mean": 0.8933,
+      "avg_set_size_mean": 33.23,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.532,
+      "coverage_std": 0.0286,
+      "coverage_correct_only_mean": 0.549,
+      "avg_set_size_mean": 18.91,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.916,
+      "coverage_std": 0.008,
+      "coverage_correct_only_mean": 0.9294,
+      "avg_set_size_mean": 37.9,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.025,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.788,
+      "coverage_std": 0.0248,
+      "coverage_correct_only_mean": 0.811,
+      "avg_set_size_mean": 26.22,
+      "avg_subgraph_edges": 246.58,
+      "edges_per_node": 5.772,
+      "model_acc": 0.826,
+      "graphmatch_levels": [
+        0.025
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.568,
+      "coverage_std": 0.0431,
+      "coverage_correct_only_mean": 0.634,
+      "avg_set_size_mean": 24.42,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.976,
+      "coverage_std": 0.0242,
+      "coverage_correct_only_mean": 0.9813,
+      "avg_set_size_mean": 83.71,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.972,
+      "coverage_std": 0.0279,
+      "coverage_correct_only_mean": 0.9758,
+      "avg_set_size_mean": 85.9,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.548,
+      "coverage_std": 0.0382,
+      "coverage_correct_only_mean": 0.6073,
+      "avg_set_size_mean": 23.58,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.93,
+      "coverage_std": 0.0303,
+      "coverage_correct_only_mean": 0.9292,
+      "avg_set_size_mean": 60.32,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.916,
+      "coverage_std": 0.0508,
+      "coverage_correct_only_mean": 0.9226,
+      "avg_set_size_mean": 58.26,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.384,
+      "coverage_std": 0.0185,
+      "coverage_correct_only_mean": 0.4186,
+      "avg_set_size_mean": 19.32,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.834,
+      "coverage_std": 0.0301,
+      "coverage_correct_only_mean": 0.8498,
+      "avg_set_size_mean": 42.2,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.05,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.802,
+      "coverage_std": 0.0877,
+      "coverage_correct_only_mean": 0.8153,
+      "avg_set_size_mean": 39.62,
+      "avg_subgraph_edges": 324.03,
+      "edges_per_node": 5.92,
+      "model_acc": 0.74,
+      "graphmatch_levels": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.444,
+      "coverage_std": 0.028,
+      "coverage_correct_only_mean": 0.5116,
+      "avg_set_size_mean": 24.74,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.942,
+      "coverage_std": 0.0325,
+      "coverage_correct_only_mean": 0.9524,
+      "avg_set_size_mean": 88.38,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.974,
+      "coverage_std": 0.0242,
+      "coverage_correct_only_mean": 0.9829,
+      "avg_set_size_mean": 131.18,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.424,
+      "coverage_std": 0.0338,
+      "coverage_correct_only_mean": 0.4871,
+      "avg_set_size_mean": 23.88,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.884,
+      "coverage_std": 0.0372,
+      "coverage_correct_only_mean": 0.9051,
+      "avg_set_size_mean": 63.57,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.944,
+      "coverage_std": 0.0338,
+      "coverage_correct_only_mean": 0.9524,
+      "avg_set_size_mean": 89.4,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.314,
+      "coverage_std": 0.0287,
+      "coverage_correct_only_mean": 0.3661,
+      "avg_set_size_mean": 19.48,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.74,
+      "coverage_std": 0.021,
+      "coverage_correct_only_mean": 0.7613,
+      "avg_set_size_mean": 43.89,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.0625,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.888,
+      "coverage_std": 0.0407,
+      "coverage_correct_only_mean": 0.9104,
+      "avg_set_size_mean": 64.37,
+      "avg_subgraph_edges": 331.58,
+      "edges_per_node": 5.994,
+      "model_acc": 0.726,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.242,
+      "coverage_std": 0.0331,
+      "coverage_correct_only_mean": 0.2957,
+      "avg_set_size_mean": 25.38,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.874,
+      "coverage_std": 0.0516,
+      "coverage_correct_only_mean": 0.8725,
+      "avg_set_size_mean": 108.64,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.926,
+      "coverage_std": 0.0206,
+      "coverage_correct_only_mean": 0.9225,
+      "avg_set_size_mean": 162.74,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.226,
+      "coverage_std": 0.0307,
+      "coverage_correct_only_mean": 0.2825,
+      "avg_set_size_mean": 24.46,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.794,
+      "coverage_std": 0.0484,
+      "coverage_correct_only_mean": 0.7793,
+      "avg_set_size_mean": 75.03,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.878,
+      "coverage_std": 0.0479,
+      "coverage_correct_only_mean": 0.8757,
+      "avg_set_size_mean": 109.97,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.142,
+      "coverage_std": 0.0527,
+      "coverage_correct_only_mean": 0.1814,
+      "avg_set_size_mean": 19.78,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.586,
+      "coverage_std": 0.0476,
+      "coverage_correct_only_mean": 0.593,
+      "avg_set_size_mean": 48.16,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.1,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.794,
+      "coverage_std": 0.0484,
+      "coverage_correct_only_mean": 0.7793,
+      "avg_set_size_mean": 76.15,
+      "avg_subgraph_edges": 476.79,
+      "edges_per_node": 6.225,
+      "model_acc": 0.596,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.134,
+      "coverage_std": 0.0185,
+      "coverage_correct_only_mean": 0.1539,
+      "avg_set_size_mean": 25.86,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.738,
+      "coverage_std": 0.0658,
+      "coverage_correct_only_mean": 0.771,
+      "avg_set_size_mean": 122.91,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.854,
+      "coverage_std": 0.0634,
+      "coverage_correct_only_mean": 0.8764,
+      "avg_set_size_mean": 184.9,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.122,
+      "coverage_std": 0.0133,
+      "coverage_correct_only_mean": 0.1392,
+      "avg_set_size_mean": 24.87,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.596,
+      "coverage_std": 0.0747,
+      "coverage_correct_only_mean": 0.6205,
+      "avg_set_size_mean": 83.58,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.744,
+      "coverage_std": 0.0595,
+      "coverage_correct_only_mean": 0.7782,
+      "avg_set_size_mean": 124.43,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.088,
+      "coverage_std": 0.0214,
+      "coverage_correct_only_mean": 0.0937,
+      "avg_set_size_mean": 19.96,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.37,
+      "coverage_std": 0.0456,
+      "coverage_correct_only_mean": 0.4039,
+      "avg_set_size_mean": 51.49,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "noise",
+      "noise": 0.15,
+      "ba_m": 5,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.602,
+      "coverage_std": 0.0728,
+      "coverage_correct_only_mean": 0.6273,
+      "avg_set_size_mean": 84.9,
+      "avg_subgraph_edges": 575.6,
+      "edges_per_node": 6.49,
+      "model_acc": 0.572,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.918,
+      "coverage_std": 0.0387,
+      "coverage_correct_only_mean": 0.9147,
+      "avg_set_size_mean": 21.58,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.998,
+      "coverage_std": 0.004,
+      "coverage_correct_only_mean": 0.9978,
+      "avg_set_size_mean": 53.74,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.918,
+      "coverage_std": 0.0387,
+      "coverage_correct_only_mean": 0.9147,
+      "avg_set_size_mean": 21.58,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.916,
+      "coverage_std": 0.0377,
+      "coverage_correct_only_mean": 0.9125,
+      "avg_set_size_mean": 21.09,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.994,
+      "coverage_std": 0.0049,
+      "coverage_correct_only_mean": 0.9937,
+      "avg_set_size_mean": 39.51,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.916,
+      "coverage_std": 0.0377,
+      "coverage_correct_only_mean": 0.9125,
+      "avg_set_size_mean": 21.09,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.836,
+      "coverage_std": 0.0492,
+      "coverage_correct_only_mean": 0.8303,
+      "avg_set_size_mean": 18.08,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.994,
+      "coverage_std": 0.0049,
+      "coverage_correct_only_mean": 0.9937,
+      "avg_set_size_mean": 29.81,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 4,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.836,
+      "coverage_std": 0.0492,
+      "coverage_correct_only_mean": 0.8303,
+      "avg_set_size_mean": 18.08,
+      "avg_subgraph_edges": 122.3,
+      "edges_per_node": 4.861,
+      "model_acc": 0.932,
+      "graphmatch_levels": [
+        0.0
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "standard",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 0.928,
+      "coverage_std": 0.0147,
+      "coverage_correct_only_mean": 0.9246,
+      "avg_set_size_mean": 21.8,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "pooled",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0,
+      "coverage_correct_only_mean": 1.0,
+      "avg_set_size_mean": 58.64,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "graphmatch",
+      "alpha": 0.05,
+      "target": 0.95,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0,
+      "coverage_correct_only_mean": 1.0,
+      "avg_set_size_mean": 85.04,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "standard",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.922,
+      "coverage_std": 0.016,
+      "coverage_correct_only_mean": 0.9183,
+      "avg_set_size_mean": 21.16,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "pooled",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 0.994,
+      "coverage_std": 0.0049,
+      "coverage_correct_only_mean": 0.9937,
+      "avg_set_size_mean": 44.16,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "graphmatch",
+      "alpha": 0.1,
+      "target": 0.9,
+      "coverage_mean": 1.0,
+      "coverage_std": 0.0,
+      "coverage_correct_only_mean": 1.0,
+      "avg_set_size_mean": 59.25,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "standard",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.804,
+      "coverage_std": 0.0294,
+      "coverage_correct_only_mean": 0.8015,
+      "avg_set_size_mean": 17.91,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "pooled",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.978,
+      "coverage_std": 0.0075,
+      "coverage_correct_only_mean": 0.9771,
+      "avg_set_size_mean": 33.03,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    },
+    {
+      "shift": "density",
+      "noise": 0.0,
+      "ba_m": 6,
+      "method": "graphmatch",
+      "alpha": 0.2,
+      "target": 0.8,
+      "coverage_mean": 0.994,
+      "coverage_std": 0.0049,
+      "coverage_correct_only_mean": 0.9937,
+      "avg_set_size_mean": 44.62,
+      "avg_subgraph_edges": 273.08,
+      "edges_per_node": 6.383,
+      "model_acc": 0.956,
+      "graphmatch_levels": [
+        0.1
+      ]
+    }
+  ]
+}

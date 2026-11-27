@@ -1,0 +1,4 @@
+﻿torch==2.14.1
+torch_geometric==2.8.0
+numpy
+scikit-learn
