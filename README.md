@@ -40,6 +40,7 @@ The `results` folder contains the JSON output of every script.
 | Supplementary S9 (selectivity, synthetic graphs) | `week22_selective_coverage.py` |
 | Supplementary S10 (selectivity, citation graphs) | `week23_real_selectivity.py` |
 | Supplementary S11 (risk control at 95% and 80%) | `week20_crc.py` |
+| Supplementary S14 (Twitch coverage by node degree; reuses the week 19 records) | `week24_degree_coverage.py` |
 
 Development steps not reported as separate tables: Weeks 1-4 (training, explanations, score design),
 Week 8 (first calibration family), Weeks 12-14 (GPU generalisation runs, superseded by the CPU runs of Weeks 16-17).
@@ -56,5 +57,3 @@ Each script prints a summary table and writes its JSON result file.
 ## License
 
 MIT License.
-
-- week24_degree_coverage.py -> Supplementary Table S14 (Twitch coverage by node degree; reuses results/week19 records, reproduces week19 coverage exactly). Output: results/week24_degree_coverage.json
