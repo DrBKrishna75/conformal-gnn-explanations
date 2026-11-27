@@ -1,0 +1,1422 @@
+{
+ "GCN": {
+  "target_0.95": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 1.0,
+      "whole": 1.0,
+      "abstain": 0.0,
+      "set_size": 2.95,
+      "cov_selective": null,
+      "n_selective": 0
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 1.0,
+      "whole": 0.54,
+      "abstain": 0.0,
+      "set_size": 3.89,
+      "cov_selective": 1.0,
+      "n_selective": 69
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 1.0,
+      "whole": 1.0,
+      "abstain": 0.0,
+      "set_size": 3.06,
+      "cov_selective": null,
+      "n_selective": 0
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9957,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 0.9957,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9984,
+      "whole": 0.582,
+      "abstain": 0.0,
+      "set_size": 3.87,
+      "cov_selective": 0.9962,
+      "n_selective": 260
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 1.0,
+      "whole": 1.0,
+      "abstain": 0.0,
+      "set_size": 2.95,
+      "cov_selective": null,
+      "n_selective": 0
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 1.0,
+      "whole": 0.54,
+      "abstain": 0.0,
+      "set_size": 3.89,
+      "cov_selective": 1.0,
+      "n_selective": 69
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 1.0,
+      "whole": 1.0,
+      "abstain": 0.0,
+      "set_size": 3.06,
+      "cov_selective": null,
+      "n_selective": 0
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9957,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 0.9957,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 5.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9984,
+      "whole": 0.582,
+      "abstain": 0.0,
+      "set_size": 3.87,
+      "cov_selective": 0.9962,
+      "n_selective": 260
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 1.0,
+      "whole": 0.852,
+      "abstain": 0.0,
+      "set_size": 2.8,
+      "cov_selective": 1.0,
+      "n_selective": 12
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 1.0,
+      "whole": 0.46,
+      "abstain": 0.0,
+      "set_size": 3.35,
+      "cov_selective": 1.0,
+      "n_selective": 81
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 1.0,
+      "whole": 0.925,
+      "abstain": 0.011,
+      "set_size": 2.99,
+      "cov_selective": 1.0,
+      "n_selective": 27
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.987,
+      "whole": 0.009,
+      "abstain": 0.0,
+      "set_size": 4.48,
+      "cov_selective": 0.9869,
+      "n_selective": 229
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.45,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9952,
+      "whole": 0.542,
+      "abstain": 0.006,
+      "set_size": 3.61,
+      "cov_selective": 0.9895,
+      "n_selective": 285
+     }
+    }
+   }
+  },
+  "target_0.90": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 0.963,
+      "whole": 0.667,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.8889,
+      "n_selective": 27
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 0.9688,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9688,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9667,
+      "whole": 0.36,
+      "abstain": 0.0,
+      "set_size": 2.71,
+      "cov_selective": 0.9479,
+      "n_selective": 96
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 0.9807,
+      "whole": 0.591,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.9527,
+      "n_selective": 148
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9437,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9437,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9678,
+      "whole": 0.344,
+      "abstain": 0.0,
+      "set_size": 2.69,
+      "cov_selective": 0.951,
+      "n_selective": 408
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 1.0,
+      "whole": 0.852,
+      "abstain": 0.0,
+      "set_size": 2.8,
+      "cov_selective": 1.0,
+      "n_selective": 12
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 1.0,
+      "whole": 0.46,
+      "abstain": 0.0,
+      "set_size": 3.35,
+      "cov_selective": 1.0,
+      "n_selective": 81
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 1.0,
+      "whole": 0.82,
+      "abstain": 0.0,
+      "set_size": 2.88,
+      "cov_selective": 1.0,
+      "n_selective": 65
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9654,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9654,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9871,
+      "whole": 0.477,
+      "abstain": 0.0,
+      "set_size": 3.35,
+      "cov_selective": 0.9754,
+      "n_selective": 325
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 0.963,
+      "whole": 0.667,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.8889,
+      "n_selective": 27
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 0.9688,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9688,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9667,
+      "whole": 0.36,
+      "abstain": 0.0,
+      "set_size": 2.71,
+      "cov_selective": 0.9479,
+      "n_selective": 96
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 0.9972,
+      "whole": 0.713,
+      "abstain": 0.0,
+      "set_size": 2.7,
+      "cov_selective": 0.9904,
+      "n_selective": 104
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9524,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.45,
+      "cov_selective": 0.9524,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.45,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9807,
+      "whole": 0.415,
+      "abstain": 0.0,
+      "set_size": 3.01,
+      "cov_selective": 0.967,
+      "n_selective": 364
+     }
+    }
+   }
+  },
+  "target_0.80": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 0.963,
+      "whole": 0.667,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.8889,
+      "n_selective": 27
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 0.9688,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9688,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9667,
+      "whole": 0.36,
+      "abstain": 0.0,
+      "set_size": 2.71,
+      "cov_selective": 0.9479,
+      "n_selective": 96
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 0.9807,
+      "whole": 0.591,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.9527,
+      "n_selective": 148
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9437,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9437,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9678,
+      "whole": 0.344,
+      "abstain": 0.0,
+      "set_size": 2.69,
+      "cov_selective": 0.951,
+      "n_selective": 408
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 0.963,
+      "whole": 0.667,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.8889,
+      "n_selective": 27
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 0.9688,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9688,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9667,
+      "whole": 0.36,
+      "abstain": 0.0,
+      "set_size": 2.71,
+      "cov_selective": 0.9479,
+      "n_selective": 96
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 0.9807,
+      "whole": 0.591,
+      "abstain": 0.0,
+      "set_size": 2.47,
+      "cov_selective": 0.9527,
+      "n_selective": 148
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9437,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9437,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9678,
+      "whole": 0.344,
+      "abstain": 0.0,
+      "set_size": 2.69,
+      "cov_selective": 0.951,
+      "n_selective": 408
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 81,
+      "coverage": 0.8765,
+      "whole": 0.358,
+      "abstain": 0.0,
+      "set_size": 1.83,
+      "cov_selective": 0.8077,
+      "n_selective": 52
+     },
+     "deg 6-20": {
+      "n": 64,
+      "coverage": 0.875,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.875,
+      "n_selective": 64
+     },
+     "deg 21-200": {
+      "n": 5,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 1.0,
+      "n_selective": 5
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.88,
+      "whole": 0.193,
+      "abstain": 0.0,
+      "set_size": 1.91,
+      "cov_selective": 0.8512,
+      "n_selective": 121
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 362,
+      "coverage": 0.9613,
+      "whole": 0.539,
+      "abstain": 0.0,
+      "set_size": 2.35,
+      "cov_selective": 0.9162,
+      "n_selective": 167
+     },
+     "deg 6-20": {
+      "n": 231,
+      "coverage": 0.9264,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.76,
+      "cov_selective": 0.9264,
+      "n_selective": 231
+     },
+     "deg 21-200": {
+      "n": 29,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.76,
+      "cov_selective": 1.0,
+      "n_selective": 29
+     },
+     "all": {
+      "n": 622,
+      "coverage": 0.9502,
+      "whole": 0.314,
+      "abstain": 0.0,
+      "set_size": 2.52,
+      "cov_selective": 0.9274,
+      "n_selective": 427
+     }
+    }
+   }
+  }
+ },
+ "GAT": {
+  "target_0.95": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9811,
+      "whole": 0.792,
+      "abstain": 0.0,
+      "set_size": 2.92,
+      "cov_selective": 0.9091,
+      "n_selective": 11
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9765,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9765,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9733,
+      "whole": 0.28,
+      "abstain": 0.0,
+      "set_size": 3.62,
+      "cov_selective": 0.963,
+      "n_selective": 108
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 1.0,
+      "whole": 0.863,
+      "abstain": 0.0,
+      "set_size": 2.74,
+      "cov_selective": 1.0,
+      "n_selective": 54
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.9925,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9925,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9981,
+      "whole": 0.632,
+      "abstain": 0.0,
+      "set_size": 3.08,
+      "cov_selective": 0.9949,
+      "n_selective": 197
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9811,
+      "whole": 0.792,
+      "abstain": 0.0,
+      "set_size": 2.92,
+      "cov_selective": 0.9091,
+      "n_selective": 11
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9765,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9765,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9733,
+      "whole": 0.28,
+      "abstain": 0.0,
+      "set_size": 3.62,
+      "cov_selective": 0.963,
+      "n_selective": 108
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 1.0,
+      "whole": 0.863,
+      "abstain": 0.0,
+      "set_size": 2.74,
+      "cov_selective": 1.0,
+      "n_selective": 54
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.9925,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9925,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9981,
+      "whole": 0.632,
+      "abstain": 0.0,
+      "set_size": 3.08,
+      "cov_selective": 0.9949,
+      "n_selective": 197
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9811,
+      "whole": 0.792,
+      "abstain": 0.0,
+      "set_size": 2.92,
+      "cov_selective": 0.9091,
+      "n_selective": 11
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9765,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9765,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 4.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9733,
+      "whole": 0.28,
+      "abstain": 0.0,
+      "set_size": 3.62,
+      "cov_selective": 0.963,
+      "n_selective": 108
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9975,
+      "whole": 0.85,
+      "abstain": 0.061,
+      "set_size": 2.72,
+      "cov_selective": 0.9831,
+      "n_selective": 59
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.985,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.84,
+      "cov_selective": 0.985,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.9,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9944,
+      "whole": 0.623,
+      "abstain": 0.045,
+      "set_size": 3.02,
+      "cov_selective": 0.9851,
+      "n_selective": 202
+     }
+    }
+   }
+  },
+  "target_0.90": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9245,
+      "whole": 0.623,
+      "abstain": 0.0,
+      "set_size": 2.55,
+      "cov_selective": 0.8,
+      "n_selective": 20
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9294,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9294,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9267,
+      "whole": 0.22,
+      "abstain": 0.0,
+      "set_size": 2.84,
+      "cov_selective": 0.906,
+      "n_selective": 117
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9822,
+      "whole": 0.651,
+      "abstain": 0.0,
+      "set_size": 2.39,
+      "cov_selective": 0.9489,
+      "n_selective": 137
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.985,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.985,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9832,
+      "whole": 0.478,
+      "abstain": 0.0,
+      "set_size": 2.56,
+      "cov_selective": 0.9679,
+      "n_selective": 280
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9245,
+      "whole": 0.623,
+      "abstain": 0.0,
+      "set_size": 2.55,
+      "cov_selective": 0.8,
+      "n_selective": 20
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9294,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9294,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9267,
+      "whole": 0.22,
+      "abstain": 0.0,
+      "set_size": 2.84,
+      "cov_selective": 0.906,
+      "n_selective": 117
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9822,
+      "whole": 0.651,
+      "abstain": 0.0,
+      "set_size": 2.39,
+      "cov_selective": 0.9489,
+      "n_selective": 137
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.985,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.985,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9832,
+      "whole": 0.478,
+      "abstain": 0.0,
+      "set_size": 2.56,
+      "cov_selective": 0.9679,
+      "n_selective": 280
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9245,
+      "whole": 0.623,
+      "abstain": 0.0,
+      "set_size": 2.55,
+      "cov_selective": 0.8,
+      "n_selective": 20
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9294,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9294,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9267,
+      "whole": 0.22,
+      "abstain": 0.0,
+      "set_size": 2.84,
+      "cov_selective": 0.906,
+      "n_selective": 117
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9822,
+      "whole": 0.651,
+      "abstain": 0.023,
+      "set_size": 2.39,
+      "cov_selective": 0.9489,
+      "n_selective": 137
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.985,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.985,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9832,
+      "whole": 0.478,
+      "abstain": 0.017,
+      "set_size": 2.56,
+      "cov_selective": 0.9679,
+      "n_selective": 280
+     }
+    }
+   }
+  },
+  "target_0.80": {
+   "standard": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.9245,
+      "whole": 0.623,
+      "abstain": 0.0,
+      "set_size": 2.55,
+      "cov_selective": 0.8,
+      "n_selective": 20
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.9294,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9294,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.9267,
+      "whole": 0.22,
+      "abstain": 0.0,
+      "set_size": 2.84,
+      "cov_selective": 0.906,
+      "n_selective": 117
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9822,
+      "whole": 0.651,
+      "abstain": 0.0,
+      "set_size": 2.39,
+      "cov_selective": 0.9489,
+      "n_selective": 137
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.985,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 0.985,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 3.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.9832,
+      "whole": 0.478,
+      "abstain": 0.0,
+      "set_size": 2.56,
+      "cov_selective": 0.9679,
+      "n_selective": 280
+     }
+    }
+   },
+   "pooled": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.8491,
+      "whole": 0.321,
+      "abstain": 0.0,
+      "set_size": 1.87,
+      "cov_selective": 0.7778,
+      "n_selective": 36
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.8,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.8,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.8267,
+      "whole": 0.113,
+      "abstain": 0.0,
+      "set_size": 1.95,
+      "cov_selective": 0.8045,
+      "n_selective": 133
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9237,
+      "whole": 0.422,
+      "abstain": 0.0,
+      "set_size": 1.82,
+      "cov_selective": 0.8678,
+      "n_selective": 227
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.9474,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.9474,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.931,
+      "whole": 0.31,
+      "abstain": 0.0,
+      "set_size": 1.87,
+      "cov_selective": 0.9,
+      "n_selective": 370
+     }
+    }
+   },
+   "weighted": {
+    "DE (in-support)": {
+     "deg 1-5": {
+      "n": 53,
+      "coverage": 0.8491,
+      "whole": 0.321,
+      "abstain": 0.0,
+      "set_size": 1.87,
+      "cov_selective": 0.7778,
+      "n_selective": 36
+     },
+     "deg 6-20": {
+      "n": 85,
+      "coverage": 0.8,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.8,
+      "n_selective": 85
+     },
+     "deg 21-200": {
+      "n": 12,
+      "coverage": 0.9167,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.9167,
+      "n_selective": 12
+     },
+     "all": {
+      "n": 150,
+      "coverage": 0.8267,
+      "whole": 0.113,
+      "abstain": 0.0,
+      "set_size": 1.95,
+      "cov_selective": 0.8045,
+      "n_selective": 133
+     }
+    },
+    "other countries (pooled)": {
+     "deg 1-5": {
+      "n": 393,
+      "coverage": 0.9237,
+      "whole": 0.422,
+      "abstain": 0.0,
+      "set_size": 1.82,
+      "cov_selective": 0.8678,
+      "n_selective": 227
+     },
+     "deg 6-20": {
+      "n": 133,
+      "coverage": 0.9474,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 0.9474,
+      "n_selective": 133
+     },
+     "deg 21-200": {
+      "n": 10,
+      "coverage": 1.0,
+      "whole": 0.0,
+      "abstain": 0.0,
+      "set_size": 2.0,
+      "cov_selective": 1.0,
+      "n_selective": 10
+     },
+     "all": {
+      "n": 536,
+      "coverage": 0.931,
+      "whole": 0.31,
+      "abstain": 0.0,
+      "set_size": 1.87,
+      "cov_selective": 0.9,
+      "n_selective": 370
+     }
+    }
+   }
+  }
+ }
+}
