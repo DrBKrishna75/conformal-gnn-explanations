@@ -41,6 +41,8 @@ The `results` folder contains the JSON output of every script.
 | Supplementary S10 (selectivity, citation graphs) | `week23_real_selectivity.py` |
 | Supplementary S11 (risk control at 95% and 80%) | `week20_crc.py` |
 | Supplementary S14 (Twitch coverage by node degree; reuses the week 19 records) | `week24_degree_coverage.py` |
+| Table 10 and Supplementary S12, seeds 1 and 2 (seed 0 is week 19) | `make_week25.py` (creates `week25_twitch_seeds.py` from week 19), `week25_twitch_seeds.py` |
+| Table 10 and Supplementary S12, summary over seeds 0-2 | `week26_twitch_seed_summary.py` |
 
 Development steps not reported as separate tables: Weeks 1-4 (training, explanations, score design),
 Week 8 (first calibration family), Weeks 12-14 (GPU generalisation runs, superseded by the CPU runs of Weeks 16-17).
